@@ -1,6 +1,6 @@
 import React from "react";
 import "../pages/styles/Home.css";
-import Perfil from "../src/assets/img/franperfil.jpeg";
+import Perfil from "../public/img/franperfil.jpeg";
 import MyButton from "../components/Button.jsx";
 import DropdownMenu from "../components/Menu.jsx";
 import DesktopMenu from "../components/DesktopMenu";
@@ -16,7 +16,7 @@ function Home() {
 
       <section className="title-section">
         <p className="first-title">Hello, I´m Fran</p>
-        <span id="typed-text"></span>
+
         <h3 className="second-title">
           I like making fun and <br></br>interactive things with code.
         </h3>
