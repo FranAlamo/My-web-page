@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Menu from "../src/assets/icons/menu-svgrepo-com.svg";
+import Menu from "../src/assets/Icons/menu-svgrepo-com.svg";
 import "../components/Menu.css";
 
 const DropdownMenu = () => {
