@@ -33,21 +33,22 @@ p {
   text-align: center;
   display: flex;
   justify-content: center;
-  margin-top: -20%;
+  margin-top: -25%;
   margin-bottom: 8%;
 }
 .contact-links {
   display: flex;
   justify-content: center;
-  margin-top: 2%;
+  margin-top: 1%;
   margin-left: 5%;
 }
 
 .icon-logo {
   display: flex;
   justify-content: center;
-  margin-bottom: 15%;
-  width: 4%;
+  margin-top: -10%;
+  margin-bottom: 10%;
+  width: 40%;
   animation: moveIcon 3s infinite ease-in-out;
   transition: transform 0.3s ease;
 }
