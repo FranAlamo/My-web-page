@@ -1,7 +1,7 @@
 import React from "react";
 import "../pages/styles/Home.css";
 import Perfil from "../src/assets/img/franperfil.jpeg";
-import MyButton from "../components/button";
+import MyButton from "../components/Button.jsx";
 import DropdownMenu from "../components/Menu.jsx";
 import DesktopMenu from "../components/DesktopMenu";
 function Home() {
