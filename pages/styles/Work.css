@@ -1,0 +1,135 @@
+.title-contact-work {
+  margin: 5%;
+}
+
+#button-work {
+  width: 45%;
+  height: 45px;
+  background: #453815;
+  color: #ffffff;
+  font-size: 120%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+  margin-top: -8%;
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+#button-work:hover {
+  background-color: #71c0a3;
+}
+
+.Work .title-contact-work {
+  color: #71c0a3;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.Work .carousel-slide .carousel-title {
+  color: #71c0a3;
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.Work .carousel-slide .carousel-description {
+  color: #71c0a3;
+  font-size: 50px;
+  margin-top: 5px;
+}
+
+.work-item .description {
+  font-size: 25px;
+  margin: 2%;
+}
+
+@media (min-width: 768px) {
+  .work-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .work-item .work-image {
+    max-width: 900px;
+    height: 150%;
+    margin-bottom: 10px;
+    margin-top: -5%;
+  }
+  .work-item .description {
+    font-size: 200%;
+    margin-top: 5%;
+  }
+  .work-item .title {
+    font-size: 150%;
+    margin-top: 1%;
+  }
+  #button-work {
+    width: 30%;
+    height: 45px;
+    background: #453815;
+    color: #ffffff;
+    font-size: 150%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .work-item .work-image {
+    max-width: 750px;
+    height: 150%;
+    margin-bottom: 10px;
+    margin-top: -2%;
+  }
+  .work-item .description {
+    font-size: 45px;
+    margin-top: 1%;
+  }
+  #button-work {
+    width: 30%;
+    height: 45px;
+    background: #453815;
+    color: #ffffff;
+    font-size: 150%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1500px) {
+  .work-item .work-image {
+    max-width: 800px;
+    height: 150%;
+    margin-bottom: 5px;
+    margin-top: -5%;
+  }
+  .work-item .description {
+    font-size: 30px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+  #button-work {
+    width: 30%;
+    height: 45px;
+    background: #453815;
+    color: #ffffff;
+    font-size: 150%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: -2%;
+    margin-bottom: 2%;
+  }
+}

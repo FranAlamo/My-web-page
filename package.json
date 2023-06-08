@@ -1,0 +1,39 @@
+{
+  "name": "desafio2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@formspree/react": "^2.4.2",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.9.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-infinite-scroll-hook": "^4.1.1",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.12.0",
+    "react-slick": "^0.29.0",
+    "react-tilt": "^1.0.2",
+    "slick-carousel": "^1.8.1",
+    "typed": "^10.0.0-beta.2",
+    "typed.js": "^2.0.16"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "vite": "^4.2.0"
+  }
+}

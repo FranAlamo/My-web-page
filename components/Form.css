@@ -1,0 +1,55 @@
+#name {
+  background-color: #d9d9d9;
+  font-size: 150%;
+  width: 45%;
+  height: 50px;
+  border-color: transparent;
+  margin-top: 5%;
+  margin-left: 1.8%;
+}
+#email {
+  margin-top: 3%;
+  font-size: 150%;
+  background-color: #d9d9d9;
+  width: 45%;
+  height: 50px;
+  border-color: transparent;
+  margin-left: 1.8%;
+}
+#message {
+  margin-top: 3%;
+  font-size: 150%;
+  margin-bottom: 6%;
+  background-color: #d9d9d9;
+  width: 45%;
+  height: 90px;
+  border-color: transparent;
+  margin-left: 1.8%;
+}
+#button-contact {
+  width: 30%;
+  height: 50px;
+  background: #453815;
+  color: #ffffff;
+  border-color: none;
+  font-size: 130%;
+  float: left;
+  margin-left: 2%;
+  margin-top: -2%;
+  cursor: pointer;
+}
+#button-contact:hover {
+  background-color: #71c0a3;
+}
+.message-return {
+  color: white;
+  width: 150%;
+}
+#all-form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  height: 400px;
+  margin-bottom: -15%;
+}

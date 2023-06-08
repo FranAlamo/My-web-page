@@ -1,0 +1,12 @@
+.icons-header {
+  display: flex;
+}
+.header-container {
+  background-color: #71c0a3;
+  height: 15%;
+}
+.back-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}

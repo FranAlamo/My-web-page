@@ -1,0 +1,16 @@
+.get-in-touch {
+  width: 250px;
+  height: 40px;
+  background: #453815;
+  color: #ffffff;
+  font-size: 160%;
+  float: left;
+  margin-left: 0.5%;
+  cursor: pointer;
+}
+#name-button {
+  font-size: 180%;
+}
+.get-in-touch:hover {
+  background-color: #71c0a3;
+}

@@ -1,0 +1,44 @@
+.error-container {
+  text-align: center;
+  margin-top: 300px;
+}
+
+.error-code {
+  font-size: 100px;
+  color: #453815;
+}
+
+.error-message {
+  font-size: 60px;
+  color: #453815;
+}
+
+.error-description {
+  font-size: 30px;
+  color: #453815;
+  margin-bottom: 20px;
+}
+
+.error-link {
+  font-size: 30px;
+  color: #71c0a3;
+  text-decoration: none;
+}
+
+.error-link:hover {
+  text-decoration: underline;
+}
+@keyframes moveAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(
+      100px
+    ); /* Reemplaza esto con la cantidad de desplazamiento que desees */
+  }
+}
+
+.error-container {
+  animation: moveAnimation 3s infinite alternate; /* Reemplaza 3s con la duración de la animación que desees */
+}
