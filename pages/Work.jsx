@@ -10,7 +10,7 @@ const Work = () => {
       title: "AUDN",
       description:
         "For when you need a music app that matches your mood of the day and your activity",
-      image: "/img/todolist.jpg",
+      image: "/img/audn.jpg",
       githubRepo: "https://github.com/FranAlamo/Front-App-AUDN",
     },
     {
@@ -18,7 +18,7 @@ const Work = () => {
       title: "POKEDEX",
       description:
         "A really cool project where we used HTML, CSS and JavaScript to create an attractive Pokédex",
-      image: "/img/todolist.jpg",
+      image: "/img/pokedek.jpg",
       githubRepo: "https://github.com/FranAlamo/PokeDex",
     },
     {
