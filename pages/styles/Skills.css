@@ -4,11 +4,10 @@
 
 .title-one {
   color: #71c0a3;
-  padding: 8%;
+  margin: 5%;
 }
 .title-two {
-  padding: 8%;
-  margin-top: -5%;
+  margin: 5%;
 }
 .app-logos {
   display: flex;
@@ -19,7 +18,7 @@
 .logo-group {
   display: flex;
   justify-content: center;
-  margin-bottom: 35px;
+  margin: 5%;
 }
 
 .logo-item {
@@ -28,16 +27,14 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-right: 10px;
 }
 
 .logo-name {
-  margin-top: 12px;
-  font-size: 120%;
+  margin: 3%;
+  font-size: 100%;
 }
 .icon-logos {
   width: 65%;
-  margin-left: 8%;
   animation: moveIcon 3s infinite ease-in-out;
   transition: transform 0.3s ease;
 }
@@ -48,135 +45,106 @@
 .skills-one {
   color: #71c0a3;
   font-weight: 900;
-  padding: 5%;
-  margin-top: -2%;
+  margin: 3%;
   font-size: 200%;
 }
 .skills-two {
-  padding: 4.5%;
-  margin-top: -2%;
   font-size: 150%;
+  margin: 3%;
 }
 .title {
-  margin-left: 9%;
-  margin-top: 3%;
   font-size: 200%;
   color: #71c0a3;
 }
 @media (min-width: 768px) {
-  .title-contact {
-    padding: 4%;
-  }
   .title-one {
     color: #71c0a3;
-    padding: 5%;
-    font-size: 300%;
+    font-size: 250%;
+    margin: 2%;
   }
+
   .title-two {
-    margin-left: -2%;
-    padding: 7%;
-    margin-top: -5%;
+    margin: 2%;
   }
   .logo-name {
-    margin-top: 12px;
-    font-size: 200%;
+    margin: 1%;
+    font-size: 100%;
   }
   .icon-logos {
-    width: 50%;
-    margin-left: 8%;
-    animation: moveIcon 3s infinite ease-in-out;
-    transition: transform 0.3s ease;
+    width: 40%;
   }
   .icon-logos:hover {
     transform: scale(1.8);
   }
   .skills-one {
     color: #71c0a3;
-    font-weight: 900;
-    padding: 5%;
-    margin-top: -8%;
     font-size: 200%;
   }
   .skills-two {
-    padding: 4.5%;
-    margin-top: -10%;
-    font-size: 200%;
+    font-size: 180%;
   }
   .title {
-    margin-left: 5%;
-    margin-top: 2%;
     font-size: 200%;
-    color: #71c0a3;
   }
   @media (min-width: 1400px) {
-    .title-contact {
-      padding: 4%;
-    }
     .title-one {
-      color: #71c0a3;
-      padding: 5%;
-      font-size: 300%;
-      margin-top: -2%;
+      font-size: 250%;
+      margin: 1%;
     }
     .title-two {
-      margin-left: -2%;
-      padding: 7%;
-      margin-top: -10%;
-      font-size: 300%;
+      font-size: 200%;
+      margin: 1%;
     }
     .logo-name {
-      margin-top: 12px;
-      font-size: 200%;
+      margin: 1%;
+      font-size: 100%;
+    }
+    .logo-name {
+      font-size: 180%;
     }
     .icon-logos {
-      margin-top: -8%;
-      width: 20%;
-      margin-left: 5%;
-      animation: moveIcon 3s infinite ease-in-out;
-      transition: transform 0.3s ease;
+      width: 18%;
     }
-    .icon-logos:hover {
-      transform: scale(1.8);
+    .logo-group {
+      margin: 2.5%;
     }
     .skills-one {
       color: #71c0a3;
       font-weight: 900;
-      padding: 5%;
-      margin-top: -5%;
-      font-size: 250%;
-      margin-left: 1%;
+      font-size: 200%;
+      margin: 1%;
     }
     .skills-two {
-      padding: 4.5%;
-      margin-top: -9%;
-      font-size: 250%;
-      margin-left: 1.5%;
+      font-size: 180%;
+      margin: 1%;
     }
-  }
-  .title {
-    margin-left: 5%;
-    margin-top: 2%;
-    font-size: 250%;
-    color: #71c0a3;
+    .title {
+      font-size: 200%;
+      color: #71c0a3;
+    }
   }
   @media (min-width: 1500px) {
-    .title-contact {
-      padding: 2%;
-    }
     .title-one {
-      color: #71c0a3;
-      padding: 5%;
-      font-size: 350%;
-      margin-top: -3%;
-    }
-    .title-two {
-      margin-left: -2%;
-      padding: 7%;
-      margin-top: -8%;
       font-size: 250%;
     }
+    .title-two {
+      font-size: 220%;
+    }
+    .logo-name {
+      font-size: 120%;
+    }
     .icon-logos {
-      width: 20%;
+      width: 15%;
+    }
+    .logo-group {
+      margin: 2%;
+    }
+
+    .skills-one {
+      font-size: 220%;
+    }
+    .skills-two {
+      font-size: 220%;
     }
   }
 }

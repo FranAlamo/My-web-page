@@ -5,9 +5,7 @@
 
 .image-icon {
   width: 10%;
-  margin-left: 85%;
-  margin-top: 2%;
-  margin-bottom: -1%;
+  display: flex;
 }
 .icon-button {
   border: none;
@@ -30,14 +28,14 @@
   line-height: 650%;
 }
 .menu-link {
-  color: #453815; /* Color predeterminado del enlace */
-  transition: color 0.1s ease; /* Transición suave para el cambio de color */
+  color: #453815;
+  transition: color 0.1s ease;
 }
 
 .menu-link:hover {
-  color: #f8eaea; /* Color al pasar el cursor por encima del enlace */
+  color: #f8eaea;
 }
 
 .menu-link.active {
-  color: #f8eaea; /* Color del enlace activo */
+  color: #f8eaea;
 }
