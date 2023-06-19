@@ -33,12 +33,10 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(
-      100px
-    ); /* Reemplaza esto con la cantidad de desplazamiento que desees */
+    transform: translateX(100px);
   }
 }
 
 .error-container {
-  animation: moveAnimation 3s infinite alternate; /* Reemplaza 3s con la duración de la animación que desees */
+  animation: moveAnimation 3s infinite alternate;
 }
