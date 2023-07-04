@@ -16,214 +16,119 @@ body {
   background-color: #71c0a3;
   background-image: url(../../src/assets/Icons/mandala-svgrepo-com.svg);
   background-blend-mode: normal;
-  height: 40vh;
-}
-.fran-profile {
-  filter: blur(0.9) saturate(1.2) contrast(0.8) brightness(1.1);
-  border: 1px solid #71c0a3;
-  box-shadow: 0px 0px 50px 3px #f8eaea;
-  width: 30%;
-  max-width: 300px;
-  height: auto;
-  border-radius: 50%;
-  display: flex;
-  justify-content: flex-end;
-  margin-left: auto;
-  margin-top: -80px;
+  height: 45vh;
+  width: 100%;
 }
 .first-title {
   color: #453815;
-  font-size: 150%;
+  font-size: 120%;
   font-weight: 900;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.148);
   display: flex;
-  align-items: flex-start;
-  margin: 1%;
+  justify-content: left;
 }
 .second-title {
-  color: #ffffff;
-  font-size: 300%;
-  align-self: flex-start;
-  margin: 1%;
+  margin-top: 5%;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 350%;
 }
 
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
 .about {
   color: #453815;
   font-weight: bolder;
-  font-size: 180%;
-  margin: 1%;
+  font-size: 150%;
+  display: flex;
+  margin-top: 3%;
+  margin-bottom: 2%;
 }
 .who-is {
   color: #71c0a3;
-  font-size: 200%;
+  font-size: 180%;
   font-weight: 800;
-  display: flex;
-  align-items: flex-start;
-  margin: 1%;
 }
 .span-title-one {
   font-weight: 900;
   color: #453815;
-  line-height: 28px;
-  font-size: 130%;
+  line-height: 110%;
+  font-size: 150%;
 }
 .span-title-two {
   color: #000000;
-  line-height: 25px;
-  font-size: 120%;
+  line-height: 150%;
+  font-size: 140%;
 }
-
-@media only screen and (min-width: 360px) and (max-width: 555px) {
-  .first-title {
-    font-size: 250%;
-  }
-  .second-title {
-    color: #ffffff;
-    font-size: 350%;
-    display: flex;
-    align-items: flex-start;
-  }
-
-  .about {
-    font-size: 200%;
-    margin-top: -12%;
-  }
-  .span-title-one {
-    font-size: 150%;
-    line-height: 120%;
-    margin: 1%;
-  }
-  .span-title-two {
-    font-size: 140%;
-    line-height: 120%;
-    display: flex;
-    align-items: flex-start;
-    margin: 1%;
-  }
-}
-
-@media only screen and (min-width: 556px) and (max-width: 767px) {
-  .first-title {
-    font-size: 250%;
-    font-weight: 900;
-    margin-top: 3%;
-  }
-  .second-title {
-    font-size: 380%;
-  }
-
-  .about {
-    font-weight: 900;
-    font-size: 200%;
-    margin-top: -10%;
-  }
-  .fran-profile {
-    margin-top: -150px;
-  }
-  .who-is {
-    font-size: 200%;
-    margin: 1%;
-  }
-  .span-title-one {
-    font-size: 160%;
-    line-height: 100%;
-    display: flex;
-    margin: 1%;
-  }
-  .span-title-two {
-    line-height: 25px;
-    font-size: 130%;
-    line-height: 125%;
-    display: flex;
-    margin: 1%;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 1439px) {
+@media only screen and (min-width: 768px) {
   .hide-on-desktop {
     display: none;
   }
   .first-title {
-    font-size: 300%;
-    font-weight: 900;
+    font-size: 180%;
+  }
+  .second-title {
+    font-size: 500%;
     margin-top: 8%;
   }
-  .second-title {
-    font-size: 450%;
-  }
-
   .about {
-    font-weight: 900;
-    font-size: 250%;
-    line-height: 150%;
-    margin-top: -15%;
-  }
-
-  .fran-profile {
-    margin-top: -120px;
-  }
-  .who-is {
-    font-size: 250%;
-    margin: 1%;
-  }
-  .span-title-one {
+    font-weight: bolder;
     font-size: 200%;
-    line-height: 120%;
-    display: flex;
-    margin: 1%;
-  }
-  .span-title-two {
-    font-size: 150%;
-    line-height: 130%;
-    display: flex;
-    margin: 1%;
-  }
-  .second-title {
-    font-size: 480%;
-  }
-}
-@media (min-width: 1440px) {
-  .hide-on-desktop {
-    display: none;
-  }
-  .first-title {
-    font-size: 280%;
-    font-weight: 900;
-    margin-top: 5.2%;
-  }
-  .second-title {
-    color: #ffffff;
-    font-size: 650%;
-  }
-  .title-section {
-    height: 45vh;
-  }
-  .about {
-    font-weight: 900;
-    font-size: 300%;
-    margin-top: -10%;
-  }
-  .fran-profile {
-    margin-top: -180px;
-    margin-right: 1%;
   }
   .who-is {
-    font-size: 300%;
-    font-weight: 800;
-    margin: 1%;
+    font-size: 250%;
   }
   .span-title-one {
-    font-weight: 900;
-    font-size: 250%;
-    line-height: 100%;
-    margin: 1%;
+    line-height: 150%;
+    font-size: 200%;
   }
   .span-title-two {
-    font-size: 210%;
-    line-height: 120%;
-    display: flex;
-    margin: 1%;
+    font-size: 170%;
   }
-  .second-title {
-    font-size: 700%;
+  @media only screen and (min-width: 1440px) {
+    .hide-on-desktop {
+      display: none;
+    }
+
+    .first-title {
+      font-size: 180%;
+    }
+    .second-title {
+      font-size: 600%;
+      margin-top: 8%;
+    }
+    .about {
+      font-weight: bolder;
+      font-size: 200%;
+    }
+    .who-is {
+      font-size: 250%;
+    }
+    .span-title-one {
+      line-height: 150%;
+      font-size: 250%;
+    }
+    .span-title-two {
+      color: #000000;
+      line-height: 150%;
+      font-size: 200%;
+    }
   }
 }

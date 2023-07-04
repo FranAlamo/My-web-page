@@ -35,7 +35,7 @@ const Work = () => {
     <div className="Work">
       <Header pageTitle="WORK" titleColor="#F8EAEA" />
       <h1 className="title-contact-work">A Selection Of Stuff I've Built</h1>
-      <Carousel works={works} />
+      <Carousel works={works} className="custom-carousel" />
       <a
         href={works[0].githubRepo}
         target="_blank"

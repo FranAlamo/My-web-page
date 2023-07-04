@@ -4,7 +4,7 @@
 .custom-footer {
   height: 80px;
   background-color: #f8eaea;
-  padding: 18px;
+  padding: 25px;
   text-align: center;
   font-size: 25px;
 }
@@ -14,9 +14,8 @@
 }
 p {
   color: #453815;
-  line-height: 120%;
+  line-height: 150%;
   font-size: 120%;
-  margin-top: -1%;
 }
 .title-contact {
   margin: 3%;
@@ -48,7 +47,7 @@ p {
   justify-content: center;
   margin-top: -10%;
   margin-bottom: 10%;
-  width: 40%;
+  width: 60%;
   animation: moveIcon 3s infinite ease-in-out;
   transition: transform 0.3s ease;
 }

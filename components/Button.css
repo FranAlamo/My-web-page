@@ -1,11 +1,10 @@
 .get-in-touch {
-  width: 250px;
+  width: 150px;
   height: 35px;
   background: #453815;
   color: #ffffff;
   font-size: 150%;
   float: left;
-  margin: 1%;
   cursor: pointer;
 }
 

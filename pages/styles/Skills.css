@@ -8,6 +8,7 @@
 }
 .title-two {
   margin: 5%;
+  font-size: 150%;
 }
 .app-logos {
   display: flex;
@@ -46,14 +47,14 @@
   color: #71c0a3;
   font-weight: 900;
   margin: 3%;
-  font-size: 200%;
+  font-size: 150%;
 }
 .skills-two {
   font-size: 150%;
   margin: 3%;
 }
 .title {
-  font-size: 200%;
+  font-size: 180%;
   color: #71c0a3;
 }
 @media (min-width: 768px) {

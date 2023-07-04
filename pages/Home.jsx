@@ -1,6 +1,5 @@
 import React from "react";
 import "../pages/styles/Home.css";
-import Perfil from "../public/img/franperfil.jpeg";
 import MyButton from "../components/Button.jsx";
 import DropdownMenu from "../components/Menu.jsx";
 import DesktopMenu from "../components/DesktopMenu";
@@ -21,7 +20,6 @@ function Home() {
           I like making fun and <br></br>interactive things with code.
         </h3>
       </section>
-      <img src={Perfil} alt="Profile" className="fran-profile" />
 
       <section className="about-section">
         <h1 className="about">ABOUT</h1>
@@ -33,12 +31,14 @@ function Home() {
           I'm passionate about bringing both the technical and visual aspects of
           digital products to life. User experience, beautiful pixels and
           writing clean accessible. I enjoy building dynamic, creative products
-          from start to finish 😉 I can design and also code!
+          from start to finish 😉 I can design and code!
         </span>
-        <br />
         <br />
         <MyButton />
       </section>
+      <br />
+      <br />
+      <br />
     </div>
   );
 }
