@@ -6,7 +6,7 @@
   background-color: #f8eaea;
   padding: 10px;
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
 }
 .title-contact-work {
   color: #453815;
@@ -14,7 +14,7 @@
 p {
   color: #453815;
   line-height: 150%;
-  font-size: 110%;
+  font-size: 100%;
 }
 .title-contact {
   margin: 3%;
@@ -26,7 +26,7 @@ p {
 
 .links-texto {
   color: white;
-  font-size: 160%;
+  font-size: 120%;
   text-align: center;
   display: flex;
   justify-content: center;
