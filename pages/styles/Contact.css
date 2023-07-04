@@ -4,18 +4,17 @@
 .custom-footer {
   height: 80px;
   background-color: #f8eaea;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
 }
 .title-contact-work {
   color: #453815;
-  margin: 1%;
 }
 p {
   color: #453815;
   line-height: 150%;
-  font-size: 120%;
+  font-size: 110%;
 }
 .title-contact {
   margin: 3%;
@@ -23,7 +22,6 @@ p {
 
 .title-contact-work {
   color: white;
-  margin: 3%;
 }
 
 .links-texto {
@@ -32,20 +30,19 @@ p {
   text-align: center;
   display: flex;
   justify-content: center;
-  margin-top: -45%;
+  margin-top: -50%;
 }
 .contact-links {
   display: flex;
   justify-content: center;
-  margin-top: 1%;
   margin-left: 5%;
 }
 
 .icon-logo {
   display: flex;
   justify-content: center;
-  margin-bottom: 5%;
-  width: 40%;
+  margin-bottom: 3%;
+  width: 35%;
   animation: moveIcon 3s infinite ease-in-out;
   transition: transform 0.3s ease;
 }
