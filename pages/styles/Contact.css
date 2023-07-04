@@ -4,9 +4,9 @@
 .custom-footer {
   height: 80px;
   background-color: #f8eaea;
-  padding: 25px;
+  padding: 20px;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 .title-contact-work {
   color: #453815;
@@ -32,8 +32,7 @@ p {
   text-align: center;
   display: flex;
   justify-content: center;
-  margin-top: -35%;
-  margin-bottom: 8%;
+  margin-top: -45%;
 }
 .contact-links {
   display: flex;

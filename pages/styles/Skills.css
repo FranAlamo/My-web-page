@@ -35,7 +35,7 @@
   font-size: 100%;
 }
 .icon-logos {
-  width: 65%;
+  width: 60%;
   animation: moveIcon 3s infinite ease-in-out;
   transition: transform 0.3s ease;
 }
@@ -46,12 +46,12 @@
 .skills-one {
   color: #71c0a3;
   font-weight: 900;
-  margin: 3%;
+  margin-left: 5%;
   font-size: 150%;
 }
 .skills-two {
   font-size: 150%;
-  margin: 3%;
+  margin-left: 5%;
 }
 .title {
   font-size: 180%;
