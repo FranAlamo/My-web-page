@@ -132,10 +132,10 @@
       font-size: 220%;
     }
     .logo-name {
-      font-size: 120%;
+      font-size: 150%;
     }
     .icon-logos {
-      width: 15%;
+      width: 18%;
     }
     .logo-group {
       margin: 2%;
@@ -146,6 +146,9 @@
     }
     .skills-two {
       font-size: 220%;
+    }
+    .Skills {
+      margin: 5%;
     }
   }
 }

@@ -27,7 +27,6 @@ body {
   justify-content: left;
 }
 .second-title {
-  margin-top: 5%;
   background-image: linear-gradient(
     -225deg,
     #231557 0%,
@@ -71,6 +70,7 @@ body {
   color: #453815;
   line-height: 110%;
   font-size: 150%;
+  background-color: #71c0a3;
 }
 .span-title-two {
   color: #000000;
@@ -80,6 +80,9 @@ body {
 @media only screen and (min-width: 768px) {
   .hide-on-desktop {
     display: none;
+  }
+  .title-section {
+    height: 48vh;
   }
   .first-title {
     font-size: 180%;
@@ -107,28 +110,42 @@ body {
       display: none;
     }
 
+    .Home {
+      margin: 5%;
+    }
+
     .first-title {
-      font-size: 180%;
+      font-size: 2.5rem;
     }
+
     .second-title {
-      font-size: 600%;
-      margin-top: 8%;
+      font-size: 6.5rem;
     }
+
     .about {
       font-weight: bolder;
-      font-size: 200%;
+      font-size: 2.5rem;
     }
+
     .who-is {
-      font-size: 250%;
+      font-size: 2.5rem;
+      margin-bottom: 2%;
     }
+
     .span-title-one {
-      line-height: 150%;
-      font-size: 250%;
+      line-height: 200%;
+      font-size: 2.5rem;
+      background-color: #71c0a3;
     }
+
     .span-title-two {
       color: #000000;
-      line-height: 150%;
-      font-size: 200%;
+      line-height: 200%;
+      font-size: 2rem;
+    }
+    .title-section {
+      background-color: #f8eaea;
+      height: 48vh;
     }
   }
 }

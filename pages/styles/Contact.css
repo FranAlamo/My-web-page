@@ -44,9 +44,8 @@ p {
 .icon-logo {
   display: flex;
   justify-content: center;
-  margin-top: -10%;
-  margin-bottom: 10%;
-  width: 60%;
+  margin-bottom: 5%;
+  width: 40%;
   animation: moveIcon 3s infinite ease-in-out;
   transition: transform 0.3s ease;
 }
@@ -144,8 +143,8 @@ p {
 
   @media (min-width: 1500px) {
     .links-texto {
-      font-size: 200%;
-      margin-top: 13%;
+      font-size: 180%;
+      margin-top: 10%;
     }
 
     .custom-footer {
@@ -156,17 +155,13 @@ p {
     }
     .title-contact-work {
       font-size: 250%;
-      margin: 3%;
     }
     .icon-logo {
       width: 15%;
     }
-    .title-contact {
-      margin: 1%;
-    }
 
-    .title-contact-work {
-      margin: 1%;
+    .Contact {
+      margin: 5%;
     }
   }
 }

@@ -24,7 +24,7 @@ function Contact() {
         <MessageForm />
       </div>
 
-      <p className="links-texto">Find me on these online spaces too!</p>
+      <p className="links-texto">Find me on these online spaces</p>
       <section className="contact-links">
         <a
           href="https://github.com/franalamo"
