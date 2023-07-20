@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../pages/styles/Header.css";
-import Mandala from "../src/assets/Icons/mandala-svgrepo-com.svg";
-import ArrowBack from "../src/assets/Icons/previous-arrow-backward-svgrepo-com.svg";
+import Mandala from "../src/assets/Icons/mandala.svg";
+import ArrowBack from "../src/assets/Icons/back.svg";
 const Header = (props) => {
   const { margin, pageTitle, titleColor, arrowBack } = props;
 

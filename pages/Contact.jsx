@@ -1,10 +1,10 @@
 import React from "react";
 import "./styles/Contact.css";
 import MessageForm from "../components/Form";
-import Git from "../src/assets/Icons/github-142-svgrepo-com.svg";
-import Linkedin from "../src/assets/Icons/linkedin-round-svgrepo-com.svg";
-import Behance from "../src/assets/Icons/behance-round-svgrepo-com.svg";
-import Email from "../src/assets/Icons/gmail-svgrepo-com.svg";
+import Git from "../src/assets/Icons/github.svg";
+import Linkedin from "../src/assets/Icons/linkedin.svg";
+import Behance from "../src/assets/Icons/behance.svg";
+import Email from "../src/assets/Icons/gmail.svg";
 import Header from "../components/Header";
 function Contact() {
   return (

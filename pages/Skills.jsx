@@ -1,18 +1,18 @@
 import React from "react";
 import "./styles/Skills.css";
 import Header from "../components/Header";
-import HTML from "../src/assets/Icons/html5-02-svgrepo-com.svg";
-import CSS from "../src/assets/Icons/css3-02-svgrepo-com.svg";
-import JavaScript from "../src/assets/Icons/java-script-logo-svgrepo-com.svg";
-import Rea from "../src/assets/Icons/react-svgrepo-com.svg";
-import Git from "../src/assets/Icons/git-svgrepo-com.svg";
-import Github from "../src/assets/Icons/github-142-svgrepo-com.svg";
-import VS from "../src/assets/Icons/vs-code-logo-microsoft-svgrepo-com.svg";
-import PostgreSQL from "../src/assets/Icons/postgresql-svgrepo-com.svg";
-import Adobe from "../src/assets/Icons/adobe-svgrepo-com.svg";
-import Nod from "../src/assets/Icons/node-fill-svgrepo-com.svg";
-import WordPress from "../src/assets/Icons/wordpress-139-svgrepo-com.svg";
-import Figma from "../src/assets/Icons/figma-svgrepo-com.svg";
+import HTML from "../src/assets/Icons/html.svg";
+import CSS from "../src/assets/Icons/css.svg";
+import JavaScript from "../src/assets/Icons/javascript.svg";
+import Rea from "../src/assets/Icons/react.svg";
+import Git from "../src/assets/Icons/git.svg";
+import Github from "../src/assets/Icons/github.svg";
+import VS from "../src/assets/Icons/vs-code.svg";
+import PostgreSQL from "../src/assets/Icons/postgresql.svg";
+import Adobe from "../src/assets/Icons/adobe.svg";
+import Nod from "../src/assets/Icons/node.svg";
+import WordPress from "../src/assets/Icons/wordpress.svg";
+import Figma from "../src/assets/Icons/figma.svg";
 function Skills() {
   return (
     <div className="Skills">
